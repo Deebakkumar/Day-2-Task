@@ -1,0 +1,33 @@
+1. Write a blog on the difference between document & window object
+
+DOCUMENT
+
+1. It represents any HTML document or web page
+2. that is loaded in the browser
+3. It is loaded inside the window
+4. It is the object of window property
+5. All the tags  elements with attributes in HTML are part of the document
+6. By accessing the document object, we can access the element in the HTML page
+7. With the help of document objects, we can add dynamic content to our web page
+8.  The document object can be accessed with a window.document or just document
+9. It is used to attach an event handler to the specified element
+10.  It is used to create an attribute node with the specified name and returns the attribute object
+11.  It is used to create the document fragment to change the content of the document
+
+WINDOW OBJECT
+
+1. It represents a browser window or frame that displays the contents of the webpage
+2. the very first object that is loaded in the browser
+3. It is the object of the browser
+4.  Whenever a window appears on the screen to display 
+the contents of the document the window object is created
+5.  It returns a reference to the console object 
+which provides access to the browser’s debugging console
+6. It is used to define the default message that will be displayed
+ in the status bar when no activity is carried on by the browser
+ 7.  It returns the XUL controller objects for the current Chrome window
+ 8.  It returns a reference to the CustomElementRegistry object, which can be used to register 
+ new custom elements and also get information about already registered custom elements
+ 9. It returns the ratio between physical pixels and device-independent pixels in the current display
+ 10. It returns a reference to the document object of that window 
+ 11. It returns a reference to a DOMMatrix object, which represents 4×4 matrices, suitable for 2D and 3D operations
